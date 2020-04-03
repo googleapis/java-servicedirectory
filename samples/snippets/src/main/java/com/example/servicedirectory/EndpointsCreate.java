@@ -47,12 +47,9 @@ public class EndpointsCreate {
       // The service to create the endpoint in.
       ServiceName parent = ServiceName.of(projectId, locationId, namespaceId, serviceId);
 
-      // Optionally set an IP address and port for the endpoint.
-      String address = "10.0.0.1";
-      int port = 443;
-
       // The endpoint to create, with fields filled in.
-      Endpoint endpoint = Endpoint.newBuilder().setAddress(address).setPort(port).build();
+      // Optionally set an IP address and port for the endpoint.
+      Endpoint endpoint = Endpoint.newBuilder().setAddress("10.0.0.1").setPort(443).build();
 
       // Send the request to create the endpoint.
       Endpoint createdEndpoint = client.createEndpoint(parent, endpoint, endpointId);
