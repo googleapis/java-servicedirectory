@@ -25,9 +25,10 @@ You must set your project ID in order to run the tests
 
 You must ensure that the
 [user account or service account](https://cloud.google.com/iam/docs/service-accounts#differences_between_a_service_account_and_a_user_account)
-you used to authorize your gcloud session has the proper permissions to edit KMS
-resources for your project. In the Cloud Console under IAM, add the `Service
-Directory Admin` role to the project whose service account you're using to test.
+you used to authorize your gcloud session has the proper permissions to edit
+Service Directory resources for your project. In the Cloud Console under IAM,
+add the `Service Directory Admin` role to the project whose service account
+you're using to test.
 
 More information can be found in the
 [Authentication docs](https://cloud.google.com/docs/authentication/production).
