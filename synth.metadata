@@ -1,11 +1,11 @@
 {
-  "updateTime": "2020-04-09T11:05:17.125581Z",
+  "updateTime": "2020-04-09T11:05:58.568356Z",
   "sources": [
     {
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-servicedirectory.git",
-        "sha": "726b072c255ed50a607b44f7c8adcc4596dcf2b3"
+        "sha": "a77d9c77203960ad389d4ebba4c69e5d23825374"
       }
     },
     {
