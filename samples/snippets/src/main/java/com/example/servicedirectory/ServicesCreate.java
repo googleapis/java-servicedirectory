@@ -27,9 +27,11 @@ public class ServicesCreate {
 
   public static void createService() throws IOException {
     // TODO(developer): Replace these variables before running the sample.
+    // These variables should refer to an existing Service Directory namespace.
     String projectId = "your-project-id";
     String locationId = "your-region";
     String namespaceId = "your-namespace";
+    // This is user-created; must be unique within the namespace above.
     String serviceId = "your-service";
     createService(projectId, locationId, namespaceId, serviceId);
   }
@@ -46,14 +48,16 @@ public class ServicesCreate {
       // The namespace to create the service in.
       NamespaceName parent = NamespaceName.of(projectId, locationId, namespaceId);
 
-      // The service object to create. Here, we use the default instance.
-      Service service = Service.newBuilder().build();
+      // The service object to create.
+      // Optionally add some metadata for the service.
+      Service service = Service.newBuilder().putMetadata("protocol", "tcp").build();
 
       // Send the request to create the namespace.
       Service createdService = client.createService(parent, service, serviceId);
 
       // Process the response.
       System.out.println("Created Service: " + createdService.getName());
+      System.out.println("Metadata: " + createdService.getMetadata());
     }
   }
 }

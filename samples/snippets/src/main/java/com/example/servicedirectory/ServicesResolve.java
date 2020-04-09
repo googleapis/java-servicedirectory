@@ -29,6 +29,7 @@ public class ServicesResolve {
 
   public static void resolveService() throws IOException {
     // TODO(developer): Replace these variables before running the sample.
+    // These variables should refer to an existing Service Directory service.
     String projectId = "your-project-id";
     String locationId = "your-region";
     String namespaceId = "your-namespace";

@@ -27,10 +27,12 @@ public class EndpointsCreate {
 
   public static void createEndpoint() throws IOException {
     // TODO(developer): Replace these variables before running the sample.
+    // These variables should refer to an existing Service Directory service.
     String projectId = "your-project-id";
     String locationId = "your-region";
     String namespaceId = "your-namespace";
     String serviceId = "your-service";
+    // This is user-created; must be unique within the service above.
     String endpointId = "your-endpoint";
     createEndpoint(projectId, locationId, namespaceId, serviceId, endpointId);
   }

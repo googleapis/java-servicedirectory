@@ -29,6 +29,7 @@ public class NamespacesCreate {
     // TODO(developer): Replace these variables before running the sample.
     String projectId = "your-project-id";
     String locationId = "your-region";
+    // This is user-created; must be unique within the project/region above.
     String namespaceId = "your-namespace";
     createNamespace(projectId, locationId, namespaceId);
   }
