@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-servicedirectory.git",
-        "sha": "793e9f74f9dc1905879ab939e9259145b705be38"
+        "sha": "1b0fbea2dffb79335c98367d30e866165dc9deb0"
       }
     },
     {
