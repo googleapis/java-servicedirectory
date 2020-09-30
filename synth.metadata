@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-servicedirectory.git",
-        "sha": "50f3e8197ff8129e0608555558ea8a32964ace2b"
+        "sha": "eb0336b1a58f5b701aa2f9b01df4a3e5e1dc4553"
       }
     },
     {
@@ -19,7 +19,7 @@
       "git": {
         "name": "synthtool",
         "remote": "https://github.com/googleapis/synthtool.git",
-        "sha": "916c10e8581804df2b48a0f0457d848f3faa582e"
+        "sha": "95dbe1bee3c7f7e52ddb24a54c37080620e0d1a2"
       }
     }
   ],
@@ -92,7 +92,6 @@
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "LICENSE",
-    "README.md",
     "codecov.yaml",
     "google-cloud-servicedirectory/src/main/java/com/google/cloud/servicedirectory/v1beta1/LookupServiceClient.java",
     "google-cloud-servicedirectory/src/main/java/com/google/cloud/servicedirectory/v1beta1/LookupServiceSettings.java",
