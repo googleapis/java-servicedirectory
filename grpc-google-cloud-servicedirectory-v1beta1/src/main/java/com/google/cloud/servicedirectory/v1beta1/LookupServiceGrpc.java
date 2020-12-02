@@ -22,7 +22,13 @@ import static io.grpc.stub.ClientCalls.futureUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
-/** */
+/**
+ *
+ *
+ * <pre>
+ * Service Directory API for looking up service data at runtime.
+ * </pre>
+ */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler",
     comments = "Source: google/cloud/servicedirectory/v1beta1/lookup_service.proto")
@@ -121,10 +127,24 @@ public final class LookupServiceGrpc {
     return LookupServiceFutureStub.newStub(factory, channel);
   }
 
-  /** */
+  /**
+   *
+   *
+   * <pre>
+   * Service Directory API for looking up service data at runtime.
+   * </pre>
+   */
   public abstract static class LookupServiceImplBase implements io.grpc.BindableService {
 
-    /** */
+    /**
+     *
+     *
+     * <pre>
+     * Returns a [service][google.cloud.servicedirectory.v1beta1.Service] and its
+     * associated endpoints.
+     * Resolving a service is not considered an active developer method.
+     * </pre>
+     */
     public void resolveService(
         com.google.cloud.servicedirectory.v1beta1.ResolveServiceRequest request,
         io.grpc.stub.StreamObserver<
@@ -147,7 +167,13 @@ public final class LookupServiceGrpc {
     }
   }
 
-  /** */
+  /**
+   *
+   *
+   * <pre>
+   * Service Directory API for looking up service data at runtime.
+   * </pre>
+   */
   public static final class LookupServiceStub
       extends io.grpc.stub.AbstractAsyncStub<LookupServiceStub> {
     private LookupServiceStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -159,7 +185,15 @@ public final class LookupServiceGrpc {
       return new LookupServiceStub(channel, callOptions);
     }
 
-    /** */
+    /**
+     *
+     *
+     * <pre>
+     * Returns a [service][google.cloud.servicedirectory.v1beta1.Service] and its
+     * associated endpoints.
+     * Resolving a service is not considered an active developer method.
+     * </pre>
+     */
     public void resolveService(
         com.google.cloud.servicedirectory.v1beta1.ResolveServiceRequest request,
         io.grpc.stub.StreamObserver<
@@ -172,7 +206,13 @@ public final class LookupServiceGrpc {
     }
   }
 
-  /** */
+  /**
+   *
+   *
+   * <pre>
+   * Service Directory API for looking up service data at runtime.
+   * </pre>
+   */
   public static final class LookupServiceBlockingStub
       extends io.grpc.stub.AbstractBlockingStub<LookupServiceBlockingStub> {
     private LookupServiceBlockingStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -185,14 +225,28 @@ public final class LookupServiceGrpc {
       return new LookupServiceBlockingStub(channel, callOptions);
     }
 
-    /** */
+    /**
+     *
+     *
+     * <pre>
+     * Returns a [service][google.cloud.servicedirectory.v1beta1.Service] and its
+     * associated endpoints.
+     * Resolving a service is not considered an active developer method.
+     * </pre>
+     */
     public com.google.cloud.servicedirectory.v1beta1.ResolveServiceResponse resolveService(
         com.google.cloud.servicedirectory.v1beta1.ResolveServiceRequest request) {
       return blockingUnaryCall(getChannel(), getResolveServiceMethod(), getCallOptions(), request);
     }
   }
 
-  /** */
+  /**
+   *
+   *
+   * <pre>
+   * Service Directory API for looking up service data at runtime.
+   * </pre>
+   */
   public static final class LookupServiceFutureStub
       extends io.grpc.stub.AbstractFutureStub<LookupServiceFutureStub> {
     private LookupServiceFutureStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -205,7 +259,15 @@ public final class LookupServiceGrpc {
       return new LookupServiceFutureStub(channel, callOptions);
     }
 
-    /** */
+    /**
+     *
+     *
+     * <pre>
+     * Returns a [service][google.cloud.servicedirectory.v1beta1.Service] and its
+     * associated endpoints.
+     * Resolving a service is not considered an active developer method.
+     * </pre>
+     */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.servicedirectory.v1beta1.ResolveServiceResponse>
         resolveService(com.google.cloud.servicedirectory.v1beta1.ResolveServiceRequest request) {
