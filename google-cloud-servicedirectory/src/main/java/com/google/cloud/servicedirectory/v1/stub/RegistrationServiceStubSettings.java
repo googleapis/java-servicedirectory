@@ -75,7 +75,6 @@ import com.google.iam.v1.TestIamPermissionsResponse;
 import com.google.protobuf.Empty;
 import java.io.IOException;
 import java.util.List;
-import java.util.Objects;
 import javax.annotation.Generated;
 import org.threeten.bp.Duration;
 
@@ -177,7 +176,7 @@ public class RegistrationServiceStubSettings extends StubSettings<RegistrationSe
 
             @Override
             public Iterable<Namespace> extractResources(ListNamespacesResponse payload) {
-              return Objects.isNull(payload.getNamespacesList())
+              return payload.getNamespacesList() == null
                   ? ImmutableList.<Namespace>of()
                   : payload.getNamespacesList();
             }
@@ -213,7 +212,7 @@ public class RegistrationServiceStubSettings extends StubSettings<RegistrationSe
 
             @Override
             public Iterable<Service> extractResources(ListServicesResponse payload) {
-              return Objects.isNull(payload.getServicesList())
+              return payload.getServicesList() == null
                   ? ImmutableList.<Service>of()
                   : payload.getServicesList();
             }
@@ -249,7 +248,7 @@ public class RegistrationServiceStubSettings extends StubSettings<RegistrationSe
 
             @Override
             public Iterable<Endpoint> extractResources(ListEndpointsResponse payload) {
-              return Objects.isNull(payload.getEndpointsList())
+              return payload.getEndpointsList() == null
                   ? ImmutableList.<Endpoint>of()
                   : payload.getEndpointsList();
             }
