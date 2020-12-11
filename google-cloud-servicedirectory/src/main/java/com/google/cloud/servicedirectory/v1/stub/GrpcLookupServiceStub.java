@@ -74,11 +74,21 @@ public class GrpcLookupServiceStub extends LookupServiceStub {
         LookupServiceStubSettings.newBuilder().build(), clientContext, callableFactory);
   }
 
+  /**
+   * Constructs an instance of GrpcLookupServiceStub, using the given settings. This is protected so
+   * that it is easy to make a subclass, but otherwise, the static factory methods should be
+   * preferred.
+   */
   protected GrpcLookupServiceStub(LookupServiceStubSettings settings, ClientContext clientContext)
       throws IOException {
     this(settings, clientContext, new GrpcLookupServiceCallableFactory());
   }
 
+  /**
+   * Constructs an instance of GrpcLookupServiceStub, using the given settings. This is protected so
+   * that it is easy to make a subclass, but otherwise, the static factory methods should be
+   * preferred.
+   */
   protected GrpcLookupServiceStub(
       LookupServiceStubSettings settings,
       ClientContext clientContext,

@@ -169,7 +169,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    * @param parent Required. The resource name of the project and location the namespace will be
    *     created in.
    * @param namespace Required. A namespace with initial fields set.
-   * @param namespace_id Required. The Resource ID must be 1-63 characters long, and comply with
+   * @param namespaceId Required. The Resource ID must be 1-63 characters long, and comply with
    *     &lt;a href="https://www.ietf.org/rfc/rfc1035.txt" target="_blank"&gt;RFC1035&lt;/a&gt;.
    *     Specifically, the name must be 1-63 characters long and match the regular expression
    *     `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a lowercase
@@ -195,7 +195,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    * @param parent Required. The resource name of the project and location the namespace will be
    *     created in.
    * @param namespace Required. A namespace with initial fields set.
-   * @param namespace_id Required. The Resource ID must be 1-63 characters long, and comply with
+   * @param namespaceId Required. The Resource ID must be 1-63 characters long, and comply with
    *     &lt;a href="https://www.ietf.org/rfc/rfc1035.txt" target="_blank"&gt;RFC1035&lt;/a&gt;.
    *     Specifically, the name must be 1-63 characters long and match the regular expression
    *     `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a lowercase
@@ -347,7 +347,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    * Updates a namespace.
    *
    * @param namespace Required. The updated namespace.
-   * @param update_mask Required. List of fields to be updated in this request.
+   * @param updateMask Required. List of fields to be updated in this request.
    * @throws com.google.api.gax.rpc.ApiException if the remote call fails
    */
   public final Namespace updateNamespace(Namespace namespace, FieldMask updateMask) {
@@ -432,7 +432,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    *
    * @param parent Required. The resource name of the namespace this service will belong to.
    * @param service Required. A service with initial fields set.
-   * @param service_id Required. The Resource ID must be 1-63 characters long, and comply with &lt;a
+   * @param serviceId Required. The Resource ID must be 1-63 characters long, and comply with &lt;a
    *     href="https://www.ietf.org/rfc/rfc1035.txt" target="_blank"&gt;RFC1035&lt;/a&gt;.
    *     Specifically, the name must be 1-63 characters long and match the regular expression
    *     `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a lowercase
@@ -456,7 +456,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    *
    * @param parent Required. The resource name of the namespace this service will belong to.
    * @param service Required. A service with initial fields set.
-   * @param service_id Required. The Resource ID must be 1-63 characters long, and comply with &lt;a
+   * @param serviceId Required. The Resource ID must be 1-63 characters long, and comply with &lt;a
    *     href="https://www.ietf.org/rfc/rfc1035.txt" target="_blank"&gt;RFC1035&lt;/a&gt;.
    *     Specifically, the name must be 1-63 characters long and match the regular expression
    *     `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a lowercase
@@ -605,7 +605,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    * Updates a service.
    *
    * @param service Required. The updated service.
-   * @param update_mask Required. List of fields to be updated in this request.
+   * @param updateMask Required. List of fields to be updated in this request.
    * @throws com.google.api.gax.rpc.ApiException if the remote call fails
    */
   public final Service updateService(Service service, FieldMask updateMask) {
@@ -687,8 +687,8 @@ public class RegistrationServiceClient implements BackgroundResource {
    *
    * @param parent Required. The resource name of the service that this endpoint provides.
    * @param endpoint Required. A endpoint with initial fields set.
-   * @param endpoint_id Required. The Resource ID must be 1-63 characters long, and comply with
-   *     &lt;a href="https://www.ietf.org/rfc/rfc1035.txt" target="_blank"&gt;RFC1035&lt;/a&gt;.
+   * @param endpointId Required. The Resource ID must be 1-63 characters long, and comply with &lt;a
+   *     href="https://www.ietf.org/rfc/rfc1035.txt" target="_blank"&gt;RFC1035&lt;/a&gt;.
    *     Specifically, the name must be 1-63 characters long and match the regular expression
    *     `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a lowercase
    *     letter, and all following characters must be a dash, lowercase letter, or digit, except the
@@ -711,8 +711,8 @@ public class RegistrationServiceClient implements BackgroundResource {
    *
    * @param parent Required. The resource name of the service that this endpoint provides.
    * @param endpoint Required. A endpoint with initial fields set.
-   * @param endpoint_id Required. The Resource ID must be 1-63 characters long, and comply with
-   *     &lt;a href="https://www.ietf.org/rfc/rfc1035.txt" target="_blank"&gt;RFC1035&lt;/a&gt;.
+   * @param endpointId Required. The Resource ID must be 1-63 characters long, and comply with &lt;a
+   *     href="https://www.ietf.org/rfc/rfc1035.txt" target="_blank"&gt;RFC1035&lt;/a&gt;.
    *     Specifically, the name must be 1-63 characters long and match the regular expression
    *     `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a lowercase
    *     letter, and all following characters must be a dash, lowercase letter, or digit, except the
@@ -860,7 +860,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    * Updates a endpoint.
    *
    * @param endpoint Required. The updated endpoint.
-   * @param update_mask Required. List of fields to be updated in this request.
+   * @param updateMask Required. List of fields to be updated in this request.
    * @throws com.google.api.gax.rpc.ApiException if the remote call fails
    */
   public final Endpoint updateEndpoint(Endpoint endpoint, FieldMask updateMask) {
