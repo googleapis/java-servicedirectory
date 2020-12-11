@@ -121,7 +121,7 @@ public class ServiceName implements ResourceName {
   public static List<String> toStringList(List<ServiceName> values) {
     List<String> list = new ArrayList<>(values.size());
     for (ServiceName value : values) {
-      if (Objects.isNull(value)) {
+      if (value == null) {
         list.add("");
       } else {
         list.add(value.toString());
@@ -136,20 +136,20 @@ public class ServiceName implements ResourceName {
 
   @Override
   public Map<String, String> getFieldValuesMap() {
-    if (Objects.isNull(fieldValuesMap)) {
+    if (fieldValuesMap == null) {
       synchronized (this) {
-        if (Objects.isNull(fieldValuesMap)) {
+        if (fieldValuesMap == null) {
           ImmutableMap.Builder<String, String> fieldMapBuilder = ImmutableMap.builder();
-          if (!Objects.isNull(project)) {
+          if (project != null) {
             fieldMapBuilder.put("project", project);
           }
-          if (!Objects.isNull(location)) {
+          if (location != null) {
             fieldMapBuilder.put("location", location);
           }
-          if (!Objects.isNull(namespace)) {
+          if (namespace != null) {
             fieldMapBuilder.put("namespace", namespace);
           }
-          if (!Objects.isNull(service)) {
+          if (service != null) {
             fieldMapBuilder.put("service", service);
           }
           fieldValuesMap = fieldMapBuilder.build();
