@@ -86,7 +86,7 @@ public class LookupServiceClientTest {
             .setName(
                 ServiceName.of("[PROJECT]", "[LOCATION]", "[NAMESPACE]", "[SERVICE]").toString())
             .setMaxEndpoints(2074789987)
-            .setEndpointFilter("endpoint_filter-403297950")
+            .setEndpointFilter("endpointFilter-1834249875")
             .build();
 
     ResolveServiceResponse actualResponse = client.resolveService(request);
@@ -116,7 +116,7 @@ public class LookupServiceClientTest {
               .setName(
                   ServiceName.of("[PROJECT]", "[LOCATION]", "[NAMESPACE]", "[SERVICE]").toString())
               .setMaxEndpoints(2074789987)
-              .setEndpointFilter("endpoint_filter-403297950")
+              .setEndpointFilter("endpointFilter-1834249875")
               .build();
       client.resolveService(request);
       Assert.fail("No exception raised");

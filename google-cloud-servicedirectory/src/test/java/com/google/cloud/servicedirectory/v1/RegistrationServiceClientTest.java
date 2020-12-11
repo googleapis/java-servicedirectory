@@ -103,7 +103,7 @@ public class RegistrationServiceClientTest {
 
     LocationName parent = LocationName.of("[PROJECT]", "[LOCATION]");
     Namespace namespace = Namespace.newBuilder().build();
-    String namespaceId = "namespace_id-1253352833";
+    String namespaceId = "namespaceId790852566";
 
     Namespace actualResponse = client.createNamespace(parent, namespace, namespaceId);
     Assert.assertEquals(expectedResponse, actualResponse);
@@ -129,7 +129,7 @@ public class RegistrationServiceClientTest {
     try {
       LocationName parent = LocationName.of("[PROJECT]", "[LOCATION]");
       Namespace namespace = Namespace.newBuilder().build();
-      String namespaceId = "namespace_id-1253352833";
+      String namespaceId = "namespaceId790852566";
       client.createNamespace(parent, namespace, namespaceId);
       Assert.fail("No exception raised");
     } catch (InvalidArgumentException e) {
@@ -148,7 +148,7 @@ public class RegistrationServiceClientTest {
 
     String parent = "parent-995424086";
     Namespace namespace = Namespace.newBuilder().build();
-    String namespaceId = "namespace_id-1253352833";
+    String namespaceId = "namespaceId790852566";
 
     Namespace actualResponse = client.createNamespace(parent, namespace, namespaceId);
     Assert.assertEquals(expectedResponse, actualResponse);
@@ -174,7 +174,7 @@ public class RegistrationServiceClientTest {
     try {
       String parent = "parent-995424086";
       Namespace namespace = Namespace.newBuilder().build();
-      String namespaceId = "namespace_id-1253352833";
+      String namespaceId = "namespaceId790852566";
       client.createNamespace(parent, namespace, namespaceId);
       Assert.fail("No exception raised");
     } catch (InvalidArgumentException e) {
@@ -471,7 +471,7 @@ public class RegistrationServiceClientTest {
 
     NamespaceName parent = NamespaceName.of("[PROJECT]", "[LOCATION]", "[NAMESPACE]");
     Service service = Service.newBuilder().build();
-    String serviceId = "service_id-1724763419";
+    String serviceId = "serviceId-194185552";
 
     Service actualResponse = client.createService(parent, service, serviceId);
     Assert.assertEquals(expectedResponse, actualResponse);
@@ -497,7 +497,7 @@ public class RegistrationServiceClientTest {
     try {
       NamespaceName parent = NamespaceName.of("[PROJECT]", "[LOCATION]", "[NAMESPACE]");
       Service service = Service.newBuilder().build();
-      String serviceId = "service_id-1724763419";
+      String serviceId = "serviceId-194185552";
       client.createService(parent, service, serviceId);
       Assert.fail("No exception raised");
     } catch (InvalidArgumentException e) {
@@ -518,7 +518,7 @@ public class RegistrationServiceClientTest {
 
     String parent = "parent-995424086";
     Service service = Service.newBuilder().build();
-    String serviceId = "service_id-1724763419";
+    String serviceId = "serviceId-194185552";
 
     Service actualResponse = client.createService(parent, service, serviceId);
     Assert.assertEquals(expectedResponse, actualResponse);
@@ -544,7 +544,7 @@ public class RegistrationServiceClientTest {
     try {
       String parent = "parent-995424086";
       Service service = Service.newBuilder().build();
-      String serviceId = "service_id-1724763419";
+      String serviceId = "serviceId-194185552";
       client.createService(parent, service, serviceId);
       Assert.fail("No exception raised");
     } catch (InvalidArgumentException e) {
@@ -849,7 +849,7 @@ public class RegistrationServiceClientTest {
 
     ServiceName parent = ServiceName.of("[PROJECT]", "[LOCATION]", "[NAMESPACE]", "[SERVICE]");
     Endpoint endpoint = Endpoint.newBuilder().build();
-    String endpointId = "endpoint_id-1135808507";
+    String endpointId = "endpointId-1837754992";
 
     Endpoint actualResponse = client.createEndpoint(parent, endpoint, endpointId);
     Assert.assertEquals(expectedResponse, actualResponse);
@@ -875,7 +875,7 @@ public class RegistrationServiceClientTest {
     try {
       ServiceName parent = ServiceName.of("[PROJECT]", "[LOCATION]", "[NAMESPACE]", "[SERVICE]");
       Endpoint endpoint = Endpoint.newBuilder().build();
-      String endpointId = "endpoint_id-1135808507";
+      String endpointId = "endpointId-1837754992";
       client.createEndpoint(parent, endpoint, endpointId);
       Assert.fail("No exception raised");
     } catch (InvalidArgumentException e) {
@@ -898,7 +898,7 @@ public class RegistrationServiceClientTest {
 
     String parent = "parent-995424086";
     Endpoint endpoint = Endpoint.newBuilder().build();
-    String endpointId = "endpoint_id-1135808507";
+    String endpointId = "endpointId-1837754992";
 
     Endpoint actualResponse = client.createEndpoint(parent, endpoint, endpointId);
     Assert.assertEquals(expectedResponse, actualResponse);
@@ -924,7 +924,7 @@ public class RegistrationServiceClientTest {
     try {
       String parent = "parent-995424086";
       Endpoint endpoint = Endpoint.newBuilder().build();
-      String endpointId = "endpoint_id-1135808507";
+      String endpointId = "endpointId-1837754992";
       client.createEndpoint(parent, endpoint, endpointId);
       Assert.fail("No exception raised");
     } catch (InvalidArgumentException e) {
