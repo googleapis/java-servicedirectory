@@ -38,7 +38,6 @@ import com.google.protobuf.Empty;
 import com.google.protobuf.FieldMask;
 import java.io.IOException;
 import java.util.List;
-import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 import javax.annotation.Generated;
 
@@ -182,7 +181,7 @@ public class RegistrationServiceClient implements BackgroundResource {
       LocationName parent, Namespace namespace, String namespaceId) {
     CreateNamespaceRequest request =
         CreateNamespaceRequest.newBuilder()
-            .setParent(Objects.isNull(parent) ? null : parent.toString())
+            .setParent(parent == null ? null : parent.toString())
             .setNamespace(namespace)
             .setNamespaceId(namespaceId)
             .build();
@@ -246,7 +245,7 @@ public class RegistrationServiceClient implements BackgroundResource {
   public final ListNamespacesPagedResponse listNamespaces(LocationName parent) {
     ListNamespacesRequest request =
         ListNamespacesRequest.newBuilder()
-            .setParent(Objects.isNull(parent) ? null : parent.toString())
+            .setParent(parent == null ? null : parent.toString())
             .build();
     return listNamespaces(request);
   }
@@ -306,9 +305,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    */
   public final Namespace getNamespace(NamespaceName name) {
     GetNamespaceRequest request =
-        GetNamespaceRequest.newBuilder()
-            .setName(Objects.isNull(name) ? null : name.toString())
-            .build();
+        GetNamespaceRequest.newBuilder().setName(name == null ? null : name.toString()).build();
     return getNamespace(request);
   }
 
@@ -392,9 +389,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    */
   public final void deleteNamespace(NamespaceName name) {
     DeleteNamespaceRequest request =
-        DeleteNamespaceRequest.newBuilder()
-            .setName(Objects.isNull(name) ? null : name.toString())
-            .build();
+        DeleteNamespaceRequest.newBuilder().setName(name == null ? null : name.toString()).build();
     deleteNamespace(request);
   }
 
@@ -448,7 +443,7 @@ public class RegistrationServiceClient implements BackgroundResource {
   public final Service createService(NamespaceName parent, Service service, String serviceId) {
     CreateServiceRequest request =
         CreateServiceRequest.newBuilder()
-            .setParent(Objects.isNull(parent) ? null : parent.toString())
+            .setParent(parent == null ? null : parent.toString())
             .setService(service)
             .setServiceId(serviceId)
             .build();
@@ -510,7 +505,7 @@ public class RegistrationServiceClient implements BackgroundResource {
   public final ListServicesPagedResponse listServices(NamespaceName parent) {
     ListServicesRequest request =
         ListServicesRequest.newBuilder()
-            .setParent(Objects.isNull(parent) ? null : parent.toString())
+            .setParent(parent == null ? null : parent.toString())
             .build();
     return listServices(request);
   }
@@ -568,9 +563,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    */
   public final Service getService(ServiceName name) {
     GetServiceRequest request =
-        GetServiceRequest.newBuilder()
-            .setName(Objects.isNull(name) ? null : name.toString())
-            .build();
+        GetServiceRequest.newBuilder().setName(name == null ? null : name.toString()).build();
     return getService(request);
   }
 
@@ -651,9 +644,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    */
   public final void deleteService(ServiceName name) {
     DeleteServiceRequest request =
-        DeleteServiceRequest.newBuilder()
-            .setName(Objects.isNull(name) ? null : name.toString())
-            .build();
+        DeleteServiceRequest.newBuilder().setName(name == null ? null : name.toString()).build();
     deleteService(request);
   }
 
@@ -707,7 +698,7 @@ public class RegistrationServiceClient implements BackgroundResource {
   public final Endpoint createEndpoint(ServiceName parent, Endpoint endpoint, String endpointId) {
     CreateEndpointRequest request =
         CreateEndpointRequest.newBuilder()
-            .setParent(Objects.isNull(parent) ? null : parent.toString())
+            .setParent(parent == null ? null : parent.toString())
             .setEndpoint(endpoint)
             .setEndpointId(endpointId)
             .build();
@@ -769,7 +760,7 @@ public class RegistrationServiceClient implements BackgroundResource {
   public final ListEndpointsPagedResponse listEndpoints(ServiceName parent) {
     ListEndpointsRequest request =
         ListEndpointsRequest.newBuilder()
-            .setParent(Objects.isNull(parent) ? null : parent.toString())
+            .setParent(parent == null ? null : parent.toString())
             .build();
     return listEndpoints(request);
   }
@@ -827,9 +818,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    */
   public final Endpoint getEndpoint(EndpointName name) {
     GetEndpointRequest request =
-        GetEndpointRequest.newBuilder()
-            .setName(Objects.isNull(name) ? null : name.toString())
-            .build();
+        GetEndpointRequest.newBuilder().setName(name == null ? null : name.toString()).build();
     return getEndpoint(request);
   }
 
@@ -910,9 +899,7 @@ public class RegistrationServiceClient implements BackgroundResource {
    */
   public final void deleteEndpoint(EndpointName name) {
     DeleteEndpointRequest request =
-        DeleteEndpointRequest.newBuilder()
-            .setName(Objects.isNull(name) ? null : name.toString())
-            .build();
+        DeleteEndpointRequest.newBuilder().setName(name == null ? null : name.toString()).build();
     deleteEndpoint(request);
   }
 
