@@ -4,23 +4,23 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-servicedirectory.git",
-        "sha": "84cbdb1e3e93d04c38e150e6409bfcd203c2d6bf"
+        "sha": "e6716b1963033771d86e6856b322868ced368e8e"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "1305ca41d554eb0725237561e34129373bb8cbc1",
-        "internalRef": "362856902"
+        "sha": "b29fb6b9fcdf3bc67487fa22ab7783915023041e",
+        "internalRef": "373516134"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "1305ca41d554eb0725237561e34129373bb8cbc1",
-        "internalRef": "362856902"
+        "sha": "b29fb6b9fcdf3bc67487fa22ab7783915023041e",
+        "internalRef": "373516134"
       }
     },
     {
