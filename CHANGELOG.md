@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/googleapis/java-servicedirectory/compare/v1.3.0...v1.4.0) (2021-08-04)
+
+
+### Features
+
+* configure initial sp version ([#476](https://www.github.com/googleapis/java-servicedirectory/issues/476)) ([cb0c81f](https://www.github.com/googleapis/java-servicedirectory/commit/cb0c81f91bf484b36b9ceb3cd668bca444a3e33c))
+
 ## [1.3.0](https://www.github.com/googleapis/java-servicedirectory/compare/v1.2.5...v1.3.0) (2021-07-05)
 
 
