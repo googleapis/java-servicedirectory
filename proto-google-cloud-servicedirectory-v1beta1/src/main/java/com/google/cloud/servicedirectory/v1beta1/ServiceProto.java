@@ -45,8 +45,7 @@ public final class ServiceProto {
   static {
     java.lang.String[] descriptorData = {
       "\n"
-          + "3google/cloud/servicedirectory/v1beta1/service.proto\022%google.cloud.servicedirec"
-          + "tory.v1beta1\032\037google/api/field_behavior.proto\032\031google/api/resource.proto\0324google/cloud/servicedirectory/v1beta1/endpoint.proto\032\037google/protobuf/timestamp.proto\032\034google/api/annotations.proto\"\330\003\n"
+          + "3google/cloud/servicedirectory/v1beta1/service.proto\022%google.cloud.servicedirectory.v1beta1\032\037google/api/field_behavior.proto\032\031google/api/resource.proto\0324google/cloud/servicedirectory/v1beta1/endpoint.proto\032\037google/protobuf/timestamp.proto\032\034google/api/annotations.proto\"\330\003\n"
           + "\007Service\022\021\n"
           + "\004name\030\001 \001(\tB\003\340A\005\022S\n"
           + "\010metadata\030\002"
