@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.5](https://github.com/googleapis/java-servicedirectory/compare/v2.4.4...v2.4.5) (2022-10-05)
+
+
+### Bug Fixes
+
+* update protobuf to v3.21.7 ([96140e6](https://github.com/googleapis/java-servicedirectory/commit/96140e6498f3bad03d0f6f879dfb142fb25b04e2))
+
 ## [2.4.4](https://github.com/googleapis/java-servicedirectory/compare/v2.4.3...v2.4.4) (2022-10-03)
 
 
