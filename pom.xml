@@ -66,7 +66,7 @@
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>proto-google-cloud-servicedirectory-v1</artifactId>
-        <version>2.4.5</version><!-- {x-version-update:proto-google-cloud-servicedirectory-v1:current} -->
+        <version>2.5.0</version><!-- {x-version-update:proto-google-cloud-servicedirectory-v1:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.api.grpc</groupId>
